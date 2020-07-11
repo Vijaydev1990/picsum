@@ -1,0 +1,86 @@
+import {StyleSheet} from 'react-native';
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  container: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100%',
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+  },
+  modalBodyPortrait: {
+    position: 'relative',
+    width: '90%',
+    height: '60%',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  modalBodyLandscape: {
+    position: 'relative',
+    width: '60%',
+    height: '90%',
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  infoWrapper: {
+    position: 'absolute',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    flexDirection: 'row',
+    bottom: 12,
+    width: '100%',
+  },
+  authorText: {
+    bottom: 12,
+    padding: 5,
+    opacity: 0.6,
+    backgroundColor: '#fff',
+    color: 'black',
+    borderRadius: 10,
+  },
+  authorImg: {
+    width: 30,
+    height: 30,
+    bottom: 12,
+    marginLeft: 10,
+    marginRight: 5,
+  },
+  closeWrapper: {
+    position: 'absolute',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    flexDirection: 'row',
+    top: 0,
+    width: '100%',
+  },
+  closeImg: {
+    width: 30,
+    height: 30,
+    top: 10,
+    right: 0,
+    marginLeft: 10,
+    marginRight: 5,
+    opacity: 2,
+  },
+  downloadImg: {
+    width: 40,
+    height: 40,
+    bottom: 15,
+    marginLeft: 10,
+    marginRight: 5,
+  },
+  shareImg: {
+    width: 32,
+    height: 35,
+    bottom: 15,
+    marginLeft: 10,
+    marginRight: 5,
+  },
+});
+
+export default styles;

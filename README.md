@@ -1,13 +1,15 @@
 # picsum
 
 Prerquisites: 
+
 	"node" : 10.16.2,
     "react": "16.13.1",
     "react-native": "0.63.0",
     "android": "x"
 
 To aun the project: 
-	npm install
+
+	npm install,
 	react-native run-android
 
 Dev Implementations:
